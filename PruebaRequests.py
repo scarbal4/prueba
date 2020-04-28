@@ -9,4 +9,5 @@ print(response.json())
 
 tablaprecios = pd.DataFrame(response.json()['ListaEESSPrecio']).head()
 
+print ( "Muestro de la lista del diccionario")
 print(tablaprecios)
